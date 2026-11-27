@@ -1,0 +1,21 @@
+PETVIDA — SITE PRONTO PARA PUBLICAR
+
+ARQUIVOS
+- index.html: site completo da PetVida.
+
+FORMULÁRIO + WHATSAPP
+- O formulário abre uma conversa no WhatsApp +55 98 98596-3673.
+- Os dados do agendamento aparecem numa mensagem pronta.
+- A pessoa ainda precisa tocar em ENVIAR dentro do WhatsApp.
+- O site não salva os cadastros em banco de dados.
+
+PUBLICAÇÃO PELO ANDROID
+1. Extraia este ZIP no celular.
+2. Entre em https://github.com e crie um repositório público chamado petvida.
+3. Dentro do repositório, toque em Add file > Upload files.
+4. Envie o arquivo index.html e confirme em Commit changes.
+5. Entre em https://vercel.com, conecte com GitHub e importe o repositório petvida.
+6. Toque em Deploy. A Vercel vai gerar o endereço público do site.
+
+IMPORTANTE
+Este é um projeto escolar fictício. O número de WhatsApp configurado ficará visível no site publicado. Publique somente se estiver de acordo em divulgar esse número. O endereço e os preços da clínica são demonstrativos.

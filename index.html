@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ed873d">
+<title>PetVida | Clínica Veterinária</title>
+<style>
+:root{--orange:#ed873d;--dark:#49372d;--cream:#fff8ed;--soft:#f8e9d5;--muted:#897568}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--dark);font-family:Arial,Helvetica,sans-serif}a{color:inherit}header{background:#fffdf8;border-bottom:1px solid #f0e4d5;position:sticky;top:0;z-index:5}.wrap{max-width:1100px;margin:auto;padding:0 22px}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}.brand{display:flex;align-items:center;gap:10px;text-decoration:none}.paw{font-size:32px}.brand strong{font-size:23px;letter-spacing:-1px}.brand strong span{color:var(--orange)}.brand small{display:block;font-size:9px;letter-spacing:1.5px;color:var(--muted)}nav{display:flex;gap:18px;flex-wrap:wrap}nav a{text-decoration:none;font-weight:bold;font-size:13px}.btn{display:inline-block;background:var(--orange);color:white;padding:13px 18px;border-radius:12px;text-decoration:none;border:0;font-weight:bold;cursor:pointer}.btn.light{background:white;color:var(--dark);border:1px solid #ead9c4}.hero{padding:65px 0}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:center}.tag{display:inline-block;background:#ffedda;color:#a95b25;border-radius:30px;padding:7px 12px;font-size:12px;font-weight:bold}.hero h1{font-size:clamp(38px,6vw,62px);line-height:1.05;letter-spacing:-2px;margin:18px 0}.hero h1 span{color:var(--orange)}p{line-height:1.65}.muted{color:var(--muted)}.hero-art{min-height:330px;border-radius:28px;background:linear-gradient(145deg,#f6c38e,#e98c4c);display:grid;place-items:center;position:relative;overflow:hidden}.hero-art .animal{font-size:150px;filter:drop-shadow(0 9px 5px #8d4e3330)}.bubble{position:absolute;background:#fff5e9;border-radius:50%;width:75px;height:75px;display:grid;place-items:center;font-size:35px}.b1{top:18px;left:20px}.b2{bottom:18px;right:20px}.hero-art em{position:absolute;bottom:13px;background:#fff9efdd;border-radius:30px;padding:8px 15px;font-style:normal;font-weight:bold;font-size:12px}.section{padding:55px 0}.white{background:#fffdf8}.soft{background:var(--soft)}.center{text-align:center}.section h2{font-size:32px;margin:13px 0 8px;letter-spacing:-1px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:27px}.card{background:white;border:1px solid #f0e4d5;border-radius:18px;padding:20px}.ico{width:50px;height:50px;border-radius:15px;background:#fff0df;display:grid;place-items:center;font-size:26px;margin-bottom:14px}.card h3{margin:0 0 7px}.card p{font-size:13px;margin:0;color:var(--muted)}.price{font-size:24px;font-weight:900;color:#d97632;margin-top:14px}.fine{font-size:12px;color:var(--muted);margin-top:15px}.booking{max-width:720px;margin:28px auto 0;background:white;padding:24px;border-radius:18px;border:1px solid #f0e4d5}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}label{display:block;font-size:13px;font-weight:bold;margin-bottom:13px}input,select,textarea{width:100%;padding:12px;border:1px solid #e8d8c7;border-radius:10px;background:#fffdf9;color:var(--dark);font:14px Arial;margin-top:6px}textarea{resize:vertical}.success{display:none;background:#e5f4e6;color:#245d32;padding:14px;border-radius:10px;margin-top:12px;white-space:pre-line;font-size:13px}.success.show{display:block}.hours{max-width:520px;margin:25px auto;background:white;padding:20px;border-radius:17px}.hours div{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid #f0e4d5}.hours div:last-child{border:0}.contact{max-width:700px;margin:25px auto;display:grid;gap:13px}.contact .card{display:flex;gap:14px;align-items:center}.map{width:100%;height:230px;border:0;border-radius:14px;background:#f2e4d2}footer{background:var(--dark);color:#fff4e6;text-align:center;padding:30px 20px}footer p{font-size:12px;color:#cdb8a7;margin:8px 0 0}
+@media(max-width:700px){.wrap{padding:0 17px}.nav{padding:12px 0}.nav nav{order:3;width:100%;justify-content:space-between;gap:8px}.nav nav a{font-size:12px}.hero{padding:40px 0}.hero-grid{grid-template-columns:1fr;gap:25px}.hero-art{min-height:245px}.hero-art .animal{font-size:115px}.section{padding:42px 0}.grid{grid-template-columns:repeat(2,1fr);gap:10px}.card{padding:15px}.formgrid{grid-template-columns:1fr}.section h2{font-size:28px}}
+@media(max-width:390px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#inicio"><span class="paw">🐾</span><span><strong>Pet<span>Vida</span></strong><small>CLÍNICA VETERINÁRIA</small></span></a>
+<nav><a href="#servicos">Serviços</a><a href="#precos">Preços</a><a href="#horarios">Horários</a><a href="#contato">Contato</a></nav>
+<a class="btn" href="#agendar">Agendar</a>
+</div></header>
+<main>
+<section class="hero" id="inicio"><div class="wrap hero-grid">
+<div><span class="tag">🧡 Amor e cuidado em cada atendimento</span><h1>Seu melhor amigo merece o <span>melhor cuidado!</span></h1><p class="muted">Na PetVida, seu pet recebe carinho, atenção e cuidados especiais. Saúde e felicidade para quem faz parte da sua família.</p><p><a class="btn" href="#agendar">📅 Agendar atendimento</a> <a class="btn light" href="#servicos">Nossos serviços</a></p><p class="muted">🐶 Cães &nbsp; 🐱 Gatos &nbsp; 💛 Muito carinho</p></div>
+<div class="hero-art"><span class="bubble b1">🐾</span><span class="animal">🐕</span><span class="bubble b2">🐈</span><em>Aqui seu pet é família!</em></div>
+</div></section>
+<section class="section white" id="servicos"><div class="wrap center"><span class="tag">O que oferecemos</span><h2>Nossos serviços</h2><p class="muted">Tudo para manter seu companheiro saudável e feliz.</p>
+<div class="grid">
+<div class="card"><div class="ico">🩺</div><h3>Consultas</h3><p>Avaliação e acompanhamento veterinário.</p></div>
+<div class="card"><div class="ico">🛁</div><h3>Banho e tosa</h3><p>Higiene, beleza e conforto para seu pet.</p></div>
+<div class="card"><div class="ico">💉</div><h3>Vacinação</h3><p>Prevenção e proteção contra doenças.</p></div>
+<div class="card"><div class="ico">🔬</div><h3>Exames</h3><p>Exames laboratoriais e avaliações.</p></div>
+<div class="card"><div class="ico">💊</div><h3>Tratamentos</h3><p>Cuidados e orientação para recuperação.</p></div>
+<div class="card"><div class="ico">🐾</div><h3>Cuidados gerais</h3><p>Orientação sobre saúde e bem-estar.</p></div>
+</div></div></section>
+<section class="section" id="precos"><div class="wrap center"><span class="tag">Valores demonstrativos</span><h2>Tabela de preços</h2><p class="muted">Confira alguns dos nossos serviços.</p>
+<div class="grid">
+<div class="card"><div class="ico">🩺</div><h3>Consulta veterinária</h3><p>Avaliação geral</p><div class="price">R$ 90</div></div>
+<div class="card"><div class="ico">🛁</div><h3>Banho</h3><p>Porte pequeno</p><div class="price">R$ 45</div></div>
+<div class="card"><div class="ico">✂️</div><h3>Banho e tosa</h3><p>Porte pequeno</p><div class="price">R$ 70</div></div>
+<div class="card"><div class="ico">💉</div><h3>Vacinação</h3><p>A partir de</p><div class="price">R$ 65</div></div>
+<div class="card"><div class="ico">🔬</div><h3>Exames</h3><p>Conforme solicitação</p><div class="price">A consultar</div></div>
+<div class="card"><div class="ico">💊</div><h3>Tratamentos</h3><p>Conforme avaliação</p><div class="price">A consultar</div></div>
+</div><p class="fine">* Valores fictícios para fins de apresentação. Os preços podem variar conforme porte, peso e necessidade do animal.</p></div></section>
+<section class="section soft" id="agendar"><div class="wrap center"><span class="tag">Estamos esperando vocês!</span><h2>Agende um horário</h2><p class="muted">Preencha os dados para solicitar um atendimento.</p>
+<form class="booking" id="booking"><div class="formgrid">
+<label>Nome do responsável<input id="owner" required placeholder="Seu nome"></label>
+<label>Telefone<input id="phone" required type="tel" placeholder="(98) 99999-9999"></label>
+<label>Nome do pet<input id="pet" required placeholder="Nome do animal"></label>
+<label>Animal<select id="animal"><option>Cachorro</option><option>Gato</option><option>Outro</option></select></label>
+<label>Serviço<select id="service"><option>Consulta veterinária</option><option>Banho</option><option>Banho e tosa</option><option>Vacinação</option><option>Exames</option><option>Tratamentos</option></select></label>
+<label>Data desejada<input id="date" required type="date"></label>
+<label>Horário desejado<select id="time" required><option value="">Escolha um horário</option><option>08:00</option><option>09:00</option><option>10:00</option><option>11:00</option><option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option></select></label>
+<label>Observações<textarea id="notes" rows="2" placeholder="Algo importante sobre seu pet..."></textarea></label>
+</div><button class="btn" style="width:100%" type="submit">🐾 Solicitar agendamento</button><div id="success" class="success" role="status"></div><p class="fine">Ao enviar, o WhatsApp será aberto com os dados preenchidos. Para concluir, toque em “Enviar” na conversa. O site não armazena os dados.</p></form>
+</div></section>
+<section class="section white" id="horarios"><div class="wrap center"><span class="tag">Venha nos visitar</span><h2>Horário de funcionamento</h2><div class="hours"><div><b>Segunda a sexta</b><span>08h às 18h</span></div><div><b>Sábado</b><span>08h às 14h</span></div><div><b>Domingo e feriados</b><span style="color:#c36c39">Fechado</span></div></div></div></section>
+<section class="section" id="contato"><div class="wrap center"><span class="tag">Onde estamos</span><h2>Entre em contato</h2><p class="muted">Será um prazer receber você e seu melhor amigo!</p><div class="contact">
+<div class="card"><div class="ico" style="margin:0">📍</div><div style="text-align:left"><b>Endereço fictício</b><p class="muted">Av. dos Pets, 120 — São Luís, MA</p></div></div>
+<div class="card"><div class="ico" style="margin:0">📱</div><div style="text-align:left"><b>WhatsApp para agendamentos</b><p class="muted">(98) 98596-3673</p><a class="btn" style="margin-top:8px" href="https://wa.me/5598985963673" target="_blank" rel="noopener">Conversar pelo WhatsApp</a></div></div>
+<div class="card"><div class="ico" style="margin:0">✉️</div><div style="text-align:left"><b>E-mail demonstrativo</b><p class="muted">contato@petvida.com.br</p></div></div>
+<div class="card" style="display:block;text-align:left"><b>📌 Nossa localização</b><p class="muted">São Luís — Maranhão (mapa ilustrativo da cidade; endereço inventado).</p><iframe class="map" title="Mapa ilustrativo de São Luís" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-44.35%2C-2.65%2C-44.15%2C-2.45&layer=mapnik"></iframe></div>
+</div></div></section>
+</main>
+<footer>🐾<h2 style="margin:8px 0">PetVida</h2><p>Cuidando de quem faz sua vida mais feliz.</p><p>© 2026 PetVida — Projeto fictício para fins escolares.</p></footer>
+<script>
+const dateInput=document.getElementById('date');const now=new Date();const localToday=new Date(now.getTime()-now.getTimezoneOffset()*60000).toISOString().slice(0,10);dateInput.min=localToday;
+const whatsappNumber='5598985963673';
+document.getElementById('booking').addEventListener('submit',function(e){
+  e.preventDefault();
+  const val=id=>document.getElementById(id).value.trim();
+  const day=new Date(val('date')+'T12:00:00');
+  if(day.getDay()===0){alert('A clínica não funciona aos domingos. Escolha outro dia.');return;}
+  if(day.getDay()===6&&val('time')>'14:00'){alert('Aos sábados, atendemos até 14h. Escolha outro horário.');return;}
+  const message=[
+    'Olá! Gostaria de solicitar um agendamento na PetVida. 🐾',
+    '',
+    '*Responsável:* '+val('owner'),
+    '*Telefone:* '+val('phone'),
+    '*Pet:* '+val('pet')+' ('+val('animal')+')',
+    '*Serviço:* '+val('service'),
+    '*Data desejada:* '+day.toLocaleDateString('pt-BR'),
+    '*Horário desejado:* '+val('time'),
+    '*Observações:* '+(val('notes')||'Nenhuma')
+  ].join('\\n');
+  const whatsappUrl='https://wa.me/'+whatsappNumber+'?text='+encodeURIComponent(message);
+  const box=document.getElementById('success');
+  box.textContent='Quase pronto! O WhatsApp foi aberto com sua solicitação. Confira os dados e toque em “Enviar” para concluir o agendamento.';
+  box.classList.add('show');
+  const newWindow=window.open(whatsappUrl,'_blank','noopener,noreferrer');
+  if(!newWindow){window.location.href=whatsappUrl;}
+});
+</script>
+</body></html>
